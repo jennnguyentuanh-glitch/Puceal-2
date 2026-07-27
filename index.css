@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'TH Yorkmade';
+  src: local('TH Yorkmade'), local('THYorkmade'), local('Yorkmade');
+  font-weight: 400 900;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Playfair Display", "Georgia", ui-serif, Georgia, serif;
+  --font-logo: "TH Yorkmade", "Playfair Display", "Georgia", serif;
+}
+
+.font-logo {
+  font-family: "TH Yorkmade", "Playfair Display", "Georgia", serif;
+}
+
+

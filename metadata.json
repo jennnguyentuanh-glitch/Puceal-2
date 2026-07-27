@@ -1,0 +1,11 @@
+{
+  "name": " Puceal 2",
+  "description": "Match random users globally for 5-minute video exchanges under Discuss or Debate modes, with Gemini AI breaking the ice.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
