@@ -14,7 +14,7 @@ import {
   Loader2,
   Gift
 } from "lucide-react";
-import { supabase } from "../supabaseClient";
+import { supabase } from "./supabaseClient";
 
 interface DonateModalProps {
   isOpen: boolean;

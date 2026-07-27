@@ -11,9 +11,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell } from "recharts";
 import { ActiveTab, MatchMode, Room, SpeakingLog, ProfileStats } from "./types";
 import { supabase } from "./supabaseClient";
-import { DonateModal } from "./components/DonateModal";
-import { PrivacyPolicy } from "./components/PrivacyPolicy";
-import { TermsOfService } from "./components/TermsOfService";
+import { DonateModal } from "./DonateModal";
+import { PrivacyPolicy } from "./PrivacyPolicy";
+import { TermsOfService } from "./TermsOfService";
 
 
 declare global {
